@@ -26,16 +26,14 @@ const Hero = () => (
       <img src={Imu} alt="prantosh" className="hero-image" />
     </div>
     <div className="social-icons">
-        <a href="https://github.com/PrantoshB" target="_blank" rel="noreferrer">
+        <a href="https://github.com/SiputumaMthunzi" target="_blank" rel="noreferrer">
           <i className="fa-brands fa-github" />
         </a>
-        <a href="https://www.linkedin.com/in/prantosh" target="_blank" rel="noreferrer">
+        <a href="https://www.linkedin.com/in/mthunzi-siputuma-6b6a17212" target="_blank" rel="noreferrer">
           <i className="fa-brands fa-linkedin-in" />
         </a>
-        <a href="https://wellfound.com/u/prantosh-biswas" target="_blank" rel="noreferrer">
-          <i className="fab fa-angellist" />
-        </a>
-        <a href="https://www.twitter.com/prantalks" target="_blank" rel="noreferrer">
+        
+        <a href="https://www.twitter.com/MbuyisaMbongo" target="_blank" rel="noreferrer">
           <i className="fa-brands fa-twitter" />
         </a>
       </div>

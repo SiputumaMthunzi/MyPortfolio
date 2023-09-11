@@ -17,8 +17,10 @@ const Projects = () => {
     <div className="projects" id="projects">
       <h1 className="title projects-title">featuRed pRojecTs</h1>
       <p className="projects-para">
-        Deployed 50+ scalable websites and cross-platform mobile applications.
-        Collaborated in 100+ projects with 30+ clients all around the world. Looking for next project/role.
+      Over the years, I've had the privilege of working on a diverse range of projects 
+      that showcase my skills and dedication to crafting meaningful and impactful solutions.
+      My portfolio is a curated collection of some of my most notable work. Each project represents a unique challenge I've embraced,
+      demonstrating my ability to adapt, innovate, and deliver results.I've poured my energy and expertise into every endeavor.
       </p>
       <div className="projects-container">
         {
