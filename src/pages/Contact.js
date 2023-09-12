@@ -5,13 +5,13 @@ const Contact = () => (
   <div className="contact" id="contact">
     <div className="footer-left">
       <h1>
-        I LOVE
+        CODE
         {' '}
         <br />
         COFFEE
         <br />
         {' '}
-        CHAT ☕️
+        REPEAT 
       </h1>
     </div>
     <div className="footer-right">
@@ -19,14 +19,13 @@ const Contact = () => (
       <div className="interests">
         <p>Frontend Development</p>
         <p>React</p>
+        <p>Angular</p>
+        <p>ionic</p>
         <p>Backend Development</p>
-        <p>Ruby on Rails</p>
         <p>WordPress Development</p>
         <p>Startups</p>
         <p>New Opportunities</p>
-        <p>Coffee</p>
-        <p>Space</p>
-        <p>Pizza</p>
+       
       </div>
 
       <hr />

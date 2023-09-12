@@ -3,23 +3,24 @@ import './About.css';
 import ReduxIcon from '../assets/redux.png';
 import HTML from '../assets/html.png';
 import jQuery from '../assets/jquery.png';
-import Ruby from '../assets/ruby.png';
+import AdobeXD from '../assets/adobeXD.png';
 import JEST from '../assets/jest.png';
-import Flutter from '../assets/flutter.png';
+import ionic from '../assets/ionic.png';
 import VSCode from '../assets/vscode.png';
 import Figma from '../assets/figma.png';
 import ReactIcon from '../assets/react.png'
-import RSpecLogo from '../assets/rspec.png'
+import Firebase from '../assets/Firebase.png'
 import NPMlogo from '../assets/npm.png'
 import GitLogo from '../assets/git.png'
 import GitHublogo from '../assets/github.png'
 import GMeet from '../assets/meet.png'
+import Nodejs from '../assets/node.png'
 import Zoomlogo from '../assets/zoom.webp'
 import SkypeLogo from '../assets/skype.png'
-import Slack from '../assets/slack.png'
+import mssms from '../assets/mssms.png'
 import WebPack from '../assets/webpack.png'
 import PostGres from '../assets/postgres.png'
-import Rails from '../assets/rails.png'
+import Teams from '../assets/Teams.png'
 import Canva from '../assets/canva.png'
 import CDT from '../assets/cdt.png'
 import CSS from '../assets/css.png'
@@ -29,16 +30,19 @@ import JavaScript from '../assets/javascript.png'
 import Sass from '../assets/sass.png'
 import PostMan from '../assets/postman.png'
 import WordPress from '../assets/wordpress.png'
+import php from '../assets/php.png'
 
 const About = () => (
   <section className="about" id="about">
     <div className="about-me">
       <h2 className="title about-title">aBOUT mE</h2>
       <p className="paragraph about-para">
-        My journey in the world of programming began in 2018, when I ventured into freelancing. Since then, I have had the opportunity to work on a wide range of projects, honing my skills and expanding my knowledge along the way. I have worked with various clients, both independently and as part of a team, to deliver innovative and user-friendly websites and mobile applications.
-      </p>
+
+I'm a passionate software developer who loves transforming ideas into functional code. I thrive on solving real-world problems, collaborating with teams, and staying up-to-date with the latest tech trends. Let's build something amazing together!
+
+     </p>
       <button className="hire-me">
-        <a href="https://drive.google.com/file/d/1RIQlxcFspH89xvugEeEyvgSG_ABMX3rI/view?usp=drive_link" target="_blank" rel="noreferrer">
+        <a href="https://drive.google.com/file/d/1yplYmuNjxZMZ6UwLDEa8K84N4S7ZfPtx/view?usp=sharing" target="_blank" rel="noreferrer">
           GET MY CV
         </a>
       </button>
@@ -114,18 +118,12 @@ const About = () => (
       <div className="skills">
         <div className="skill">
           <img
-            src={Ruby}
+            src={Nodejs}
             alt=""
           />
-          <p>Ruby</p>
+          <p>Node.Js</p>
         </div>
-        <div className="skill">
-          <img
-            src={Rails}
-            alt=""
-          />
-          <p>Ruby on Rails</p>
-        </div>
+       
         <div className="skill">
           <img
             src={PostGres}
@@ -144,8 +142,8 @@ const About = () => (
           <p>React Native</p>
         </div>
         <div className="skill">
-          <img src={Flutter} alt="" />
-          <p>Flutter</p>
+          <img src={ionic} alt="" />
+          <p>Ionic</p>
         </div>
 
       </div>
@@ -159,10 +157,7 @@ const About = () => (
           <img src={GitHublogo} alt="" />
           <p>GitHub</p>
         </div>
-        <div className="skill">
-          <img src={RSpecLogo} alt="" />
-          <p>RSpec</p>
-        </div>
+       
         <div className="skill">
           <img src={JEST} alt="" />
           <p>JEST</p>
@@ -192,6 +187,21 @@ const About = () => (
           <p>WordPress</p>
         </div>
       </div>
+      <h2 className="skill-title">Database</h2>
+      <div className="skills">
+        <div className="skill">
+          <img src={Firebase} alt="" />
+          <p>Firebase</p>
+        </div>
+        <div className="skill">
+          <img src={mssms} alt="" />
+          <p>SQL Management Studio</p>
+        </div>
+        <div className="skill">
+          <img src={php} alt="" />
+          <p>PHP MySQL</p>
+        </div>
+      </div>
       <h2 className="skill-title">Design</h2>
       <div className="skills">
         <div className="skill">
@@ -202,12 +212,16 @@ const About = () => (
           <img src={Figma} alt="" />
           <p>Figma</p>
         </div>
+        <div className="skill">
+          <img src={AdobeXD} alt="" />
+          <p>AdobeXD</p>
+        </div>
       </div>
       <h2 className="skill-title">Communication</h2>
       <div className="skills">
         <div className="skill">
-          <img src={Slack} alt="" />
-          <p>Slack</p>
+          <img src={Teams} alt="" />
+          <p>Ms Teams</p>
         </div>
         <div className="skill">
           <img src={SkypeLogo} alt="" />

@@ -9,10 +9,10 @@ const Hero = () => (
       <div className="description">
         <h2 className="title">hELLO. i am Mthunzi Siputuma</h2>
         <h3 className="tagline">Breaking keyboards and pushing pixels since 2021</h3>
-        <p className="paragraph">I'm passionate about crafting exceptional digital experiences. I bring ideas to life in the virtual realm with a keyboard as my paintbrush and lines of code as my canvas. Let's join forces and bring your digital dreams to fruition. Get in touch, and let's embark on this exciting journey together!</p>
+        <p className="paragraph">I'm deeply passionate about creating extraordinary digital experiences. With a keyboard as my brush and lines of code as my canvas, I breathe life into your digital visions. Let's come together and transform your digital dreams into beautiful realities. Please reach out, and let's embark on this exciting journey side by side!</p>
         <div className="hero-btns">
           <button className="hire-me">
-            <a href="https://drive.google.com/file/d/1RIQlxcFspH89xvugEeEyvgSG_ABMX3rI/view?usp=drive_link" target="_blank" rel="noreferrer">
+            <a href="https://drive.google.com/file/d/1yplYmuNjxZMZ6UwLDEa8K84N4S7ZfPtx/view?usp=sharing" target="_blank" rel="noreferrer">
               GET MY CV
             </a>
           </button>
