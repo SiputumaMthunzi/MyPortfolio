@@ -7,7 +7,7 @@ const Hero = () => (
   <div className="hero" id="home">
     <div className="hero-overlay">
       <div className="description">
-        <h2 className="title">hELLO. i am Mthunzi Siputuma</h2>
+        <h2 className="title">Hello, I am Mthunzi Siputuma</h2>
         <h3 className="tagline">Breaking keyboards and pushing pixels since 2021</h3>
         <p className="paragraph">I'm deeply passionate about creating extraordinary digital experiences. With a keyboard as my brush and lines of code as my canvas, I breathe life into your digital visions. Let's come together and transform your digital dreams into beautiful realities. Please reach out, and let's embark on this exciting journey side by side!</p>
         <div className="hero-btns">
