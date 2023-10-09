@@ -4,7 +4,7 @@ import ReduxIcon from '../assets/redux.png';
 import HTML from '../assets/html.png';
 import jQuery from '../assets/jquery.png';
 import AdobeXD from '../assets/adobeXD.png';
-import JEST from '../assets/jest.png';
+
 import ionic from '../assets/ionic.png';
 import VSCode from '../assets/vscode.png';
 import Figma from '../assets/figma.png';
@@ -27,6 +27,7 @@ import CSS from '../assets/css.png'
 import BootStrap from '../assets/bootstrap.png'
 import NextJS from '../assets/next.webp'
 import JavaScript from '../assets/javascript.png'
+import CSharp from '../assets/csharp.png'
 import Sass from '../assets/sass.png'
 import PostMan from '../assets/postman.png'
 import WordPress from '../assets/wordpress.png'
@@ -63,6 +64,13 @@ I'm a passionate software developer who loves transforming ideas into functional
             alt=""
           />
           <p>JavaScript</p>
+        </div>
+        <div className="skill">
+          <img
+            src={CSharp}
+            alt=""
+          />
+          <p>C#</p>
         </div>
         <div className="skill">
           <img
@@ -157,11 +165,7 @@ I'm a passionate software developer who loves transforming ideas into functional
           <img src={GitHublogo} alt="" />
           <p>GitHub</p>
         </div>
-       
-        <div className="skill">
-          <img src={JEST} alt="" />
-          <p>JEST</p>
-        </div>
+      
         <div className="skill">
           <img src={CDT} alt="" />
           <p>Chrome Dev Tools</p>
