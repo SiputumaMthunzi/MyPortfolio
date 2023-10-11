@@ -50,7 +50,7 @@ const Projects = () => {
                 src={project.image}
                 alt={project.name}
                 className="project-image"
-                style={{ width: '300px', height: '300px' }}
+                style={{ width: '300px', height: '250px' }}
               />
               <p className="view-project">View Project</p>
             </div>
