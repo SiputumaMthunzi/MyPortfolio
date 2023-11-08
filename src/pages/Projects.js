@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import './Projects.css';
-import Image1 from '../assets/mayayadetal.jpeg';
+import Image1 from '../assets/mayayadetal.png';
 
 const projectImages = [
   {
     name: 'Mayaya Dental Studios',
     image: Image1,
     title: 'Mayaya Dental Studios', // Add a title for the project
-    link: 'https://www.mayayadental.com', // Add a valid link for the project with "https://"
+    link: 'https://mayayadental.com', // Add a valid link for the project with "https://"
   },
   // Add more project image objects as needed
 ];
@@ -50,8 +50,10 @@ const Projects = () => {
                 src={project.image}
                 alt={project.name}
                 className="project-image"
-                style={{ width: '300px', height: '250px' }}
+                style={{ width: '290px', height: '220px' }}
               />
+               <h4
+              style={{color: 'white'}}>{project.link}</h4> 
               <p className="view-project">View Project</p>
             </div>
           </a>
