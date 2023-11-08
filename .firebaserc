@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "my-professional-portfoli-901f2"
-  }
+    "default": "myportfiloo",
+    "mthunzi": "myportfiloo"
+  },
+  "targets": {},
+  "etags": {}
 }
