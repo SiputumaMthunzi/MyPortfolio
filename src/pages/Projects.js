@@ -50,7 +50,7 @@ const Projects = () => {
                 src={project.image}
                 alt={project.name}
                 className="project-image"
-                style={{ width: '290px', height: '220px' }}
+                style={{ width: '290px', height: '219px' }}
               />
                <h4
               style={{color: 'white'}}>{project.link}</h4> 
