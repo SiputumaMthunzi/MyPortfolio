@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import './Projects.css';
 import Image1 from '../assets/mayayadetal.png';
+import Image2 from '../assets/image2.png';
+
 
 const projectImages = [
   {
@@ -8,6 +10,12 @@ const projectImages = [
     image: Image1,
     title: 'Mayaya Dental Studios', // Add a title for the project
     link: 'https://mayayadental.com', // Add a valid link for the project with "https://"
+  },
+  {
+    name: 'MUT Co-operative Education',
+    image: Image2,
+    title: 'MUT Co-operative Education', // Add a title for the project
+    // link: 'https://mayayadental.com', // Add a valid link for the project with "https://"
   },
   // Add more project image objects as needed
 ];
