@@ -12,7 +12,7 @@ const Hero = () => (
         <p className="paragraph">I'm deeply passionate about creating extraordinary digital experiences. With a keyboard as my brush and lines of code as my canvas, I breathe life into your digital visions. Let's come together and transform your digital dreams into beautiful realities. Please reach out, and let's embark on this exciting journey side by side!</p>
         <div className="hero-btns">
           <button className="hire-me">
-            <a href="https://drive.google.com/file/d/1yplYmuNjxZMZ6UwLDEa8K84N4S7ZfPtx/view?usp=sharing" target="_blank" rel="noreferrer">
+            <a href="https://drive.google.com/file/d/112yXQ2vhu03cTZfuKseyZkQ8KGgnRzM1/view?usp=sharing" target="_blank" rel="noreferrer">
               GET MY CV
             </a>
           </button>
