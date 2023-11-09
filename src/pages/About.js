@@ -42,11 +42,11 @@ const About = () => (
 I'm a passionate software developer who loves transforming ideas into functional code. I thrive on solving real-world problems, collaborating with teams, and staying up-to-date with the latest tech trends. Let's build something amazing together!
 
      </p>
-      <button className="hire-me">
+      {/* <button className="hire-me">
         <a href="https://drive.google.com/file/d/1yplYmuNjxZMZ6UwLDEa8K84N4S7ZfPtx/view?usp=sharing" target="_blank" rel="noreferrer">
           GET MY CV
         </a>
-      </button>
+      </button> */}
     </div>
     <div className="about-skills">
       <h2 className="skill-title">Front-End</h2>
